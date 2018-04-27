@@ -1,3 +1,8 @@
+body{
+
+    margin-top: 160px
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,8 +15,9 @@ nav {
     z-index: 10 ;
     top: 0px ;
     margin-top: 0px ;
+    padding: 50px ;
     font-size: 25px ;
-    background-color: lightslategrey ;
+    background-color: #CCCCCC ;
 
 }
 
@@ -35,4 +41,39 @@ li {
     margin-right: auto ;
 
 
+}
+
+p{
+
+    color: white ;
+}
+
+#logo{
+    left: 450px ;
+    position: fixed ;
+     z-index: 10 ;
+    top: -50px ;
+    margin-top: 0px ;
+
+}
+
+
+#about-me-title {
+
+    margin-left: 50px ;
+}
+
+
+#about-me-txt {
+
+    width: 477px ;
+    height: 317px ;
+    margin-left: 50px ;
+}
+
+#pic-of-me {
+
+    position: fixed ;
+    right: 60px ;
+    top: 130px ;
 }

@@ -18,6 +18,10 @@ ul {
     padding: 0;
     font-family: 'montserrat-regular' ;
 }
+a{
+    color: black ;
+    text-decoration-color:inherit
+}
 
 nav {
     position: fixed ;
@@ -100,7 +104,7 @@ p{
 #pic-of-me {
 
     position: fixed ;
-    right: 60px ;
+    right: 5% ;
     top: 200px ;
 }
 
@@ -130,4 +134,51 @@ p{
     font-size: 60px
 
 
+}
+
+#everything-one {
+
+    margin-left: auto ;
+    margin-right: auto ;
+    left: 50% ;
+    right: 50% ;
+
+
+}
+
+
+#videography-shadow {
+ background-image: url(Asset%2017.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+    width: 800px ;
+    height: 300px ;
+    position: fixed ;
+    left: 15% ;
+
+}
+
+#videography-text {
+
+    position: fixed ;
+    left: 15% ;
+
+}
+#video-mouseover {
+    position: fixed ;
+    margin-top:200px ;
+    width: 900px ;
+    height: 506px ;
+    left: 15%
+}
+#3d-modeling-shadow {
+
+    background-image: url(Asset%2020.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+    width: 800px ;
+    height: 300px ;
+    position: fixed ;
+    left: 15% ;
+    margin-top:1000px ;
 }

@@ -148,28 +148,28 @@ p{
 
 
 #videography-shadow {
- background-image: url(Asset%2017.png) ;
+ background-image: url(Asset%2021.png) ;
     background-blend-mode: multiply ;
     background-color: #341F36;
     width: 800px ;
     height: 300px ;
     position: fixed ;
-    left: 15% ;
+    left: 25% ;
 
 }
 
 #videography-text {
 
     position: fixed ;
-    left: 15% ;
+    left: 25% ;
 
 }
 #video-mouseover {
     position: fixed ;
     margin-top:200px ;
-    width: 900px ;
-    height: 506px ;
-    left: 15%
+    width: 1000px ;
+    height: 526px ;
+    left: 15% ;
 }
 #3d-modeling-shadow {
 
@@ -181,4 +181,29 @@ p{
     position: fixed ;
     left: 15% ;
     margin-top:1000px ;
+}
+
+#photography-shadow {
+
+    background-image: url(Asset%2023.png) ;
+    background-blend-mode: multiply ;
+    background-color: #341F36;
+    position: fixed ;
+    left: 25% ;
+      width: 800px ;
+    height: 300px ;
+}
+
+#photography-text {
+
+    position: fixed ;
+    left: 25% ;
+
+
+}
+
+#photoo {
+
+    margin-top: 200px ;
+
 }
